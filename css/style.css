@@ -1,0 +1,47 @@
+body {
+  background-image: url("../img/bg2.png");
+  background-size: cover;
+}
+
+canvas {
+  display: block;
+}
+
+#mainblock {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 3px;
+}
+
+#gameblock {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  width: 628px;
+  height: 628px;
+  align-items: center;
+  border: dashed white;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#logoimg {
+  display: block;
+  padding: 10px;
+  margin-right: 70px;
+}
+
+#logoblock {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 132px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  width: 769px;
+  height: 132px;
+}
